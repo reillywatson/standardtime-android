@@ -1,1 +1,8 @@
-You need to take the stuff from ExternalFiles and put it on the device at /mnt/sdcard!
+Setup requires access to an OS X computer, and an iTunes account.
+
+1. Buy the Retina version of the Standard Time iPhone application (see http://www.standard-time.com/iapp_en.php).
+2. In iTunes, right-click on the application and select "Show in Finder".
+3. Right-click on the application bundle and select "Open With -> Archive Utility"
+4. In the folder that gets extracted, right-click on the application and select "Show Package Contents".
+5. Copy the 4 video files inside to your Android device.  Currently, they're required to be in /mnt/sdcard on the device.
+6. Build the application (I use Eclipse for this, you can do whatever you want).
